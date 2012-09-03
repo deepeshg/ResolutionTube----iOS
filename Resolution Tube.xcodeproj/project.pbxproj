@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE9F94EE15F4C05C00E0FE91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9F94ED15F4C05C00E0FE91 /* UIKit.framework */; };
+		EE9F94F015F4C05C00E0FE91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9F94EF15F4C05C00E0FE91 /* Foundation.framework */; };
+		EE9F94F215F4C05C00E0FE91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9F94F115F4C05C00E0FE91 /* CoreGraphics.framework */; };
+		EE9F94F815F4C05C00E0FE91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE9F94F615F4C05C00E0FE91 /* InfoPlist.strings */; };
+		EE9F94FA15F4C05C00E0FE91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9F94F915F4C05C00E0FE91 /* main.m */; };
+		EE9F94FE15F4C05C00E0FE91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9F94FD15F4C05C00E0FE91 /* AppDelegate.m */; };
+		EE9F950115F4C05C00E0FE91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9F950015F4C05C00E0FE91 /* ViewController.m */; };
+		EE9F950415F4C05C00E0FE91 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE9F950215F4C05C00E0FE91 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE9F94E915F4C05C00E0FE91 /* Resolution Tube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resolution Tube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9F94ED15F4C05C00E0FE91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE9F94EF15F4C05C00E0FE91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE9F94F115F4C05C00E0FE91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE9F94F515F4C05C00E0FE91 /* Resolution Tube-Info.plist */ = {isa = PBXFileReference; path = "Resolution Tube-Info.plist"; sourceTree = "<group>"; };
+		EE9F94F715F4C05C00E0FE91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE9F94F915F4C05C00E0FE91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE9F94FB15F4C05C00E0FE91 /* Resolution Tube-Prefix.pch */ = {isa = PBXFileReference; path = "Resolution Tube-Prefix.pch"; sourceTree = "<group>"; };
+		EE9F94FC15F4C05C00E0FE91 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE9F94FD15F4C05C00E0FE91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE9F94FF15F4C05C00E0FE91 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		EE9F950015F4C05C00E0FE91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE9F950315F4C05C00E0FE91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE9F94E615F4C05C00E0FE91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9F94EE15F4C05C00E0FE91 /* UIKit.framework in Frameworks */,
+				EE9F94F015F4C05C00E0FE91 /* Foundation.framework in Frameworks */,
+				EE9F94F215F4C05C00E0FE91 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE9F94DE15F4C05C00E0FE91 = {
+			isa = PBXGroup;
+			children = (
+				EE9F94F315F4C05C00E0FE91 /* Resolution Tube */,
+				EE9F94EC15F4C05C00E0FE91 /* Frameworks */,
+				EE9F94EA15F4C05C00E0FE91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE9F94EA15F4C05C00E0FE91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE9F94E915F4C05C00E0FE91 /* Resolution Tube.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE9F94EC15F4C05C00E0FE91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE9F94ED15F4C05C00E0FE91 /* UIKit.framework */,
+				EE9F94EF15F4C05C00E0FE91 /* Foundation.framework */,
+				EE9F94F115F4C05C00E0FE91 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE9F94F315F4C05C00E0FE91 /* Resolution Tube */ = {
+			isa = PBXGroup;
+			children = (
+				EE9F94FC15F4C05C00E0FE91 /* AppDelegate.h */,
+				EE9F94FD15F4C05C00E0FE91 /* AppDelegate.m */,
+				EE9F94FF15F4C05C00E0FE91 /* ViewController.h */,
+				EE9F950015F4C05C00E0FE91 /* ViewController.m */,
+				EE9F950215F4C05C00E0FE91 /* ViewController.xib */,
+				EE9F94F415F4C05C00E0FE91 /* Supporting Files */,
+			);
+			path = "Resolution Tube";
+			sourceTree = "<group>";
+		};
+		EE9F94F415F4C05C00E0FE91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE9F94F515F4C05C00E0FE91 /* Resolution Tube-Info.plist */,
+				EE9F94F615F4C05C00E0FE91 /* InfoPlist.strings */,
+				EE9F94F915F4C05C00E0FE91 /* main.m */,
+				EE9F94FB15F4C05C00E0FE91 /* Resolution Tube-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE9F94E815F4C05C00E0FE91 /* Resolution Tube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9F950715F4C05C00E0FE91 /* Build configuration list for PBXNativeTarget "Resolution Tube" */;
+			buildPhases = (
+				EE9F94E515F4C05C00E0FE91 /* Sources */,
+				EE9F94E615F4C05C00E0FE91 /* Frameworks */,
+				EE9F94E715F4C05C00E0FE91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Resolution Tube";
+			productName = "Resolution Tube";
+			productReference = EE9F94E915F4C05C00E0FE91 /* Resolution Tube.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE9F94E015F4C05C00E0FE91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EE9F94E315F4C05C00E0FE91 /* Build configuration list for PBXProject "Resolution Tube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE9F94DE15F4C05C00E0FE91;
+			productRefGroup = EE9F94EA15F4C05C00E0FE91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE9F94E815F4C05C00E0FE91 /* Resolution Tube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE9F94E715F4C05C00E0FE91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9F94F815F4C05C00E0FE91 /* InfoPlist.strings in Resources */,
+				EE9F950415F4C05C00E0FE91 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE9F94E515F4C05C00E0FE91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9F94FA15F4C05C00E0FE91 /* main.m in Sources */,
+				EE9F94FE15F4C05C00E0FE91 /* AppDelegate.m in Sources */,
+				EE9F950115F4C05C00E0FE91 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE9F94F615F4C05C00E0FE91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9F94F715F4C05C00E0FE91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE9F950215F4C05C00E0FE91 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9F950315F4C05C00E0FE91 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE9F950515F4C05C00E0FE91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EE9F950615F4C05C00E0FE91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE9F950815F4C05C00E0FE91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resolution Tube/Resolution Tube-Prefix.pch";
+				INFOPLIST_FILE = "Resolution Tube/Resolution Tube-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE9F950915F4C05C00E0FE91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resolution Tube/Resolution Tube-Prefix.pch";
+				INFOPLIST_FILE = "Resolution Tube/Resolution Tube-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE9F94E315F4C05C00E0FE91 /* Build configuration list for PBXProject "Resolution Tube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9F950515F4C05C00E0FE91 /* Debug */,
+				EE9F950615F4C05C00E0FE91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9F950715F4C05C00E0FE91 /* Build configuration list for PBXNativeTarget "Resolution Tube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9F950815F4C05C00E0FE91 /* Debug */,
+				EE9F950915F4C05C00E0FE91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE9F94E015F4C05C00E0FE91 /* Project object */;
+}
